@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite verbose="1" name="Demo Tests" skipfailedinvocationcounts="false" junit="false" parallel="tests" annotations="JDK"> 
+
+	<test verbose="1" name="Flow #1: Gmail">
+		<classes>
+			<class name="com.lryzhikov.demo.tests.GmailTest" />
+		</classes>
+	</test>
+	
+	<test verbose="1" name="Flow #2: Ebay tests">
+		<classes>
+			<class name="com.lryzhikov.demo.tests.EbayTest" />
+		</classes>
+	</test>
+	
+</suite>
